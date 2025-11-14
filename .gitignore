@@ -1,3 +1,15 @@
+# Python virtual environment
 .venv/
+
+# Python compiled files
 __pycache__/
+*.pyc
+
+# Training logs
+training_logs/
+
+# Any .pt files directly in the root (though your checkpoints are in fine_tuned_gpt2/)
 *.pt
+
+# Data files (if input.txt gets large, you might consider Git LFS or excluding it)
+# input.txt
